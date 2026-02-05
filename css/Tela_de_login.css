@@ -1,5 +1,6 @@
 
 /*Resetando o css base do navegador*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 html,body {
     margin: 0 ;
@@ -11,7 +12,6 @@ html,body {
 
 /*Aqui estamos importando a fonte do google*/
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 h1{
 color: #2A5BFA;
@@ -83,5 +83,6 @@ a{
     color: #2A5BFA;
     text-decoration: none ;
     float: right;
+
 
 }
