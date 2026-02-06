@@ -1,23 +1,29 @@
-const email = "admin@admin.com";
-const senha = "Abc123";
+document.addEventListener("DOMContentLoaded", () => {
 
-var campoEmail = document.getElementById("email");
-var campoSenha = document.getElementById("senha");
-var botaoEntrar = document.getElementById("btn-entrar");
+    const email = "admin@admin.com";
+    const senha = "Abc123";
 
-botaoEntrar.addEventListener('click', () =>  {
- //Executa o código que estiver aqui 
- 
- if (campoEmail.value == "" || campoSenha.value == "") {
-    alert("E-mail e senha devem ser preenchidos ! ");
-return;
+    const campoEmail = document.getElementById("email");
+    const campoSenha = document.getElementById("senha");
+    const botaoEntrar = document.getElementById("btn-entrar");
 
-} else if (campoEmail.value.toLowerCase()  != email  ||  campoSenha.value != senha) {
-    alert("Usuário ou senha inválidos!") ;
-return;
+    botaoEntrar.addEventListener("click", () => {
 
-} else{
-    window.open("Tela_principal.html", "_self");
-}
+        if (campoEmail.value === "" || campoSenha.value === "") {
+            alert("E-mail e senha devem ser preenchidos!");
+            return;
+        }
 
-})
+        if (
+            campoEmail.value.toLowerCase() !== email ||
+            campoSenha.value !== senha
+        ) {
+            alert("Usuário ou senha inválidos!");
+            return;
+        }
+
+        // Login válido
+        window.location.href = "index2.html";
+    });
+
+});
