@@ -18,6 +18,8 @@
 - `script.js`: Arquivo com a lógica de validação e interação do usuário.
 
 ## Demonstração
+🔗 **Acesse a aplicação online:**  
+👉 https://i2l4.github.io/telaLogin/
 
 Visualize o layout simples da Tela de Login:
 
