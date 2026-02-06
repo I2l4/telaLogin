@@ -1,25 +1,19 @@
-
-/*Resetando o css base do navegador*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-html,body {
-    margin: 0 ;
+/* Resetando o css base do navegador */
+html, body {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-
 }
 
-/*Aqui estamos importando a fonte do google*/
-
-
-h1{
-color: #2A5BFA;
-font-size: 42px;
+h1 {
+    color: #2A5BFA;
+    font-size: 42px;
 }
 
-.container{
-
+.container {
     width: 250px;
     border: 2px solid #ddd;
     margin: auto;
@@ -29,30 +23,20 @@ font-size: 42px;
     display: table;
     padding-top: 5px;
     border-radius: 8px;
+}
 
-} 
-
-input{
+input {
     box-sizing: border-box;
     width: 100%;
     padding: 8px;
     outline: none;
-    
-
 }
 
-
-input:focus{
-
-border: 2px solid  #2A5BFA;
-
-
+input:focus {
+    border: 2px solid #2A5BFA;
 }
 
-     
-
-#btn-entrar{
-
+#btn-entrar {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
@@ -64,25 +48,20 @@ border: 2px solid  #2A5BFA;
     font-weight: 600;
     font-size: 18px;
     border-radius: 5px;
-
 }
-#btn-entrar:hover{
 
+#btn-entrar:hover {
     cursor: pointer;
     background-color: #2A2BC8;
 }
 
 .grupo {
-
     text-align: start;
     margin-bottom: 20px;
 }
 
-a{
-    
+.container a {
     color: #2A5BFA;
-    text-decoration: none ;
+    text-decoration: none;
     float: right;
-
-
 }
